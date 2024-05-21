@@ -1,0 +1,50 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #413f3f;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    position: relative;
+}
+
+nav a:not(:last-child)::after {
+    content: "|";
+    position: absolute;
+    right: -20px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+h2.titre {
+    text-align: center;
+}
+article {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333;
+}
+p {
+    color: #666;
+}
