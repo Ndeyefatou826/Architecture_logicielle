@@ -36,10 +36,15 @@ h2.titre {
     text-align: center;
 }
 article {
-    background-color: whitesmoke; /* Fond jaune pour chaque carte */
+    background-color: #fff; 
     margin: 20px 0;
     padding: 20px;
     border-radius: 5px;
+}
+article:hover {
+    background-color: rgb(201, 195, 195);
+    border: 2px solid #333;
+    font-size: large;
 }
 h2 {
     color: #333;
